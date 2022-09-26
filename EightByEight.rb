@@ -1,7 +1,7 @@
 require 'httparty'
 
 # add the queueIDs you want to display below
-queueID = ["101", "102", "103"]
+queueID = ["101", "102", "103"] # numeric IDs from VCC admin API, change as needed
 SCHEDULER.every '120s', :first_in => 5 do
 auth = { :username => 'TENANT_NAME_HERE', :password => 'API_DATA_REQUEST_TOKEN_HERE'}
 
