@@ -4,8 +4,6 @@
 
 A [Smashing](https://smashing.github.io) widget for displaying 8x8 VCC (Virtual Contact Center) call queue lengths.
 
-![](screenshot URL)
-
 ## Dependencies
 
 - You need an account with [8x8](http://www.8x8.com) to use this.
